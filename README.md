@@ -16,11 +16,6 @@ https://wonderfulbeef.eu/christmas-gift/
 
 ## Folder Structure :open_file_folder:
 ```
-`- _my-backend
-   |  |		|- node_modules
-`- package.json
-`- package-lock.json
-`- server.js
 
 `- _public
    |   `favicon.ico
@@ -33,9 +28,9 @@ https://wonderfulbeef.eu/christmas-gift/
 `- _src
    |- components
    |  |    `App.js
-   |  |    `PhoneItem.js
-   |  |    `PhoneItemDetail.js
-   |  |    `PhoneList.js
+   |  |    `Chef.js
+   |  |    `ChefDetail.js
+   |  |    `ChefList.js
    |- images
    |- services
    |  |    `getDataFromApi.js
@@ -44,9 +39,9 @@ https://wonderfulbeef.eu/christmas-gift/
    |  |    	|	`- _variables.scss
    |  |		|- components
    |  |    	|	`- _App.scss
-   |  |    	|	`- _PhoneItem.scss
-   |  |    	|	`- _PhoneItemDetail.scss
-   |  |    	|	`- _PhoneList.scss
+   |  |    	|	`- _Chef.scss
+   |  |    	|	`- _ChefDetail.scss
+   |  |    	|	`- _ChefList.scss
    |-index.css
    |-index.js
    |
