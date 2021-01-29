@@ -5,6 +5,8 @@ The challenge consists in creating a simple product catalogue app using:
 - React Js
 - Responsive Design
 
+https://wonderfulbeef.eu/christmas-gift/
+
 ## Installing :wrench:
 
 1. Install Node.js.
