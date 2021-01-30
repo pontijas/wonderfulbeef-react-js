@@ -1,10 +1,19 @@
-import '../stylesheets/App.css';
+import React, { useState } from 'react';
+import ChefList from './ChefList';
+import '../stylesheets/App.scss';
+import chefData from '../data/chefdata';
 
-function App() {
+
+
+
+
+const App=()=>{
+  const [chefs] = useState(chefData);
+
   return (
-    <div className="">
-        <h1>Hola Mundo</h1>
-    </div>
+    <div>
+        <ChefList chefs={chefs}/>
+    </div> 
   );
 }
 

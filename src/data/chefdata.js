@@ -1,8 +1,8 @@
-[
+const chefdata= [
     {
-        "id": 00,
+        "id": 0,
         "name": "David Montero",
-        "restaurant": "Rice Paella",
+        "restaurant": "Restaurante Rice Paella",
         "recipe": "Arroz de solomillo con pasas y orejones",
         "website": "https://rice-paella.com/",
         "chefImageName": "davidmontero.jpg",
@@ -10,7 +10,7 @@
         "video": "zhWtvFhLHvY"
     },
     {
-        "id": 01,
+        "id": 1,
         "name": "Fernando del Cerro",
         "restaurant": "Restaurante Casa Jose",
         "recipe": "Lomo de buey a la sal negra",
@@ -21,7 +21,7 @@
         
     },
     {
-        "id": 02,
+        "id": 2,
         "name": "Fran Martínez",
         "restaurant": "Restaurante Maralba",
         "recipe": "Canelones de carrillada con foie gras",
@@ -31,7 +31,7 @@
         "video": "wQJTpRyS2KI"
     },
     {
-        "id": 03,
+        "id": 3,
         "name": "Iñigo Urrechu",
         "restaurant": "Restaurante Urrechu",
         "recipe": "Cachopo",
@@ -41,7 +41,7 @@
         "video": "4Os_k_AMgy4"
     },
     {
-        "id": 04,
+        "id": 4,
         "name": "Iván Cerdeño",
         "restaurant": "Restaurante Iván Cerdeño",
         "recipe": "Roastbeef de lomo bajo con encurtidos y bearnesa",
@@ -51,7 +51,7 @@
         "video": "IhgTLPndo6E"
     },
     {
-        "id": 05,
+        "id": 5,
         "name": "Javi Estévez",
         "restaurant": "Restaurante La Tasquería",
         "recipe": "Ensalada de lengua de ternera con mahonesa de atún y antxoa",
@@ -62,7 +62,7 @@
         
     },
     {
-        "id": 06,
+        "id": 6,
         "name": "Javier Aranda",
         "restaurant": "Restaurante Gaytán",
         "recipe": "Solomillo relleno de verduras y foie",
@@ -73,7 +73,7 @@
         
     },
     {
-        "id": 07,
+        "id": 7,
         "name": "Joel Castanyé",
         "restaurant": "Restaurante La Boscana",
         "recipe": "Fricando de tapilla con setas de temporada",
@@ -84,7 +84,7 @@
         
     },
     {
-        "id": 08,
+        "id": 8,
         "name": "Juanlu Fernández",
         "restaurant": "Restaurante Lú, Cocina y Alma",
         "recipe": "Guiso de carrillada con puré de patata",
@@ -95,7 +95,7 @@
         
     },
     {
-        "id": 09,
+        "id": 9,
         "name": "Juanmi Carrasco",
         "restaurant": "Restaurante Hermanos Carrasco",
         "recipe": "Chuleta de vacuno a la brasa",
@@ -139,3 +139,5 @@
         
     }
   ]
+
+export default chefdata;
