@@ -1,4 +1,4 @@
-import '../stylesheets/App.scss';
+import '../stylesheets/_ChefList.scss';
 import Chef from './Chef';
 import React from 'react';
 
@@ -20,7 +20,7 @@ const htmlCode=props.chefs.map(
 );
   return (
   <div>
-    <ul>{htmlCode}</ul>
+    <ul className="grid__container">{htmlCode}</ul>
   </div>);
 }
 

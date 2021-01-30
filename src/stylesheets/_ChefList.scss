@@ -1,0 +1,13 @@
+@import "./core/_variables";
+@import "./core/_reset";
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap");
+
+// grid
+.grid {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 6rem;
+  }
+}

@@ -10,22 +10,7 @@
       </symbol>
     </svg>
 
-    <header className="header__container">
-      
-      <h1 className="header__title">
-        ¿Qué les pasa <br />
-        a nuestros chefs?
-      </h1>
-      <div className="div-iframe">
-        <div className="header__container-iframe">
-          <iframe title="teaser" className="iframe" src="https://www.youtube.com/embed/w30CXuqioVY" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </div>
-      </div>
-      <div className="header__bar-container">
-        <div className="header__bar-grey"></div>
-        <div className="header__bar-red"></div>
-      </div>
-    </header>
+    
 
  
     <main className="main__container">

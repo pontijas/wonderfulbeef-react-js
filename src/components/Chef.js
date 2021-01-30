@@ -1,4 +1,4 @@
-import '../stylesheets/App.scss';
+import '../stylesheets/_Chef.scss';
 import React from 'react';
 
 
